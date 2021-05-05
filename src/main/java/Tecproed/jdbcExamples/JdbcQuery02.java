@@ -9,7 +9,7 @@ public class JdbcQuery02 {
 		Class.forName("oracle.jdbc.driver.OracleDirever");
 
 		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521/ORCLCDB.localdomain",
-				"kemal4141", "kemal4141");
+				"suleyman", "suleyman63");
 
 		Statement st = con.createStatement();
 

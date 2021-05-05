@@ -17,7 +17,7 @@ public class JdbcQuery01 {
 		// 2-) baglanti olusturmaliyiz
 
 		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521/ORCLCDB.localdomain",
-				"kemal4141", "kemal4141");
+				"suleyman", "suleyman63");
 
 		// 3-) SQL Komutlari icin bir statment ifadesi olustur
 
