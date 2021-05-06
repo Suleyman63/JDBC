@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class JdbcQuery01 {
+public class Jdbc1Query {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
@@ -16,8 +16,7 @@ public class JdbcQuery01 {
 
 		// 2-) baglanti olusturmaliyiz
 
-		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521/ORCLCDB.localdomain",
-				"suleyman", "suleyman63");
+		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521/ORCLCDB.localdomain", "suleyman", "suleyman63");
 
 		// 3-) SQL Komutlari icin bir statment ifadesi olustur
 
